@@ -17,8 +17,8 @@ const postAppointmentForm = async(req, res) =>{
 
    let info= {
   
-    Name: req.body.firstname,
-    Email: req.body.email
+    Item: req.body.item,
+    Price: req.body.price
    }
 
 
